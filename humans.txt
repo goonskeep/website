@@ -1,0 +1,61 @@
+# https://humanstxt.org
+
+/* TEAM */
+ 
+   // Developer
+   "amber"
+   Discord: amber#9666
+   Steam: n/a
+ 
+   // The Big Boss Who Pays The Bills And Also A Developer
+   "steven"
+   Steam: https://steamcommunity.com/profiles/76561198058209703
+
+   // Graphics & Assets Creator
+   "ogrewarrior"
+   Steam: n/a
+
+/* CHANGELOG / VERSION */
+  
+  Only started tracking this at around 3.4
+  time format is YYYY-MM-DD Central Time
+   
+   version 3.4 @ 2018-11-27 07:49 PM by Amber
+   - added ttt_shitcity to maps page
+   - gave ttt_shitcity a preview and thumbnail
+ 
+   version 3.5 @ 2019-08-08 01:58 AM by Steven
+   - dont you love it when you forget about something entirely
+   - domain goon.haus has been CLAIMED.
+   - organized ttt stuff to /ttt/, basic homepage has been created, /bear/ created
+   - ttt: autorole
+   - general motd organization
+   - cock and ball torture
+
+/* TECH STUFF */
+    
+   // Hosted on
+
+   NFO Servers https://www.nfoservers.com/
+   
+   // Software / Web Tools
+   
+   Visual Studio Code https://code.visualstudio.com/
+   Notepad++ https://notepad-plus-plus.org/
+   Atom https://atom.io/
+   paint.net https://www.getpaint.net/
+   Piskel https://www.piskelapp.com/
+   Filezilla https://filezilla-project.org/
+   WinSCP https://winscp.net/eng/index.php
+   putty https://www.putty.org/
+   google's closure compiler https://closure-compiler.appspot.com
+   cssportal's css optimize https://www.cssportal.com/css-optimize/
+   steamrep http://steamrep.com/
+
+   // With help from...
+
+   w3c https://www.w3.org/
+   MDN web docs https://developer.mozilla.org/en-US/
+   w3schools https://www.w3schools.com/
+   stack overflow https://stackoverflow.com/
+   facepunch forums https://forum.facepunch.com/ (rip.)

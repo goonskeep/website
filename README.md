@@ -1,7 +1,3 @@
-# website
+# v3 branch
 
-This is the repository for our main website, primarily the web pages themselves, assets, styling, and javascript.
-
-That includes things such as the ttt loading screen and motd, and in the future, a far more integrated landing page
-
-Note that the repo is currently empty, due to ongoing reorganization and getting things sorted.
+This was the long standing version 3 of our website. As of 2019 October 30'th, It has been retired, and this branch serves only to archive it.
