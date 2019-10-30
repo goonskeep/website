@@ -6,45 +6,46 @@
 
 /* TEAM */
  
-   // Developer
-   WorldOfSoap
-   Github: https://github.com/WorldOfSoap
-   Steam: https://steamcommunity.com/profiles/76561198153342787
+  // Developer
+  WorldOfSoap
+  Github: https://github.com/WorldOfSoap
+  Steam: https://steamcommunity.com/profiles/76561198153342787
 
-   // Graphics & Assets
-   Ogrewarrior
-   Github: pending..
-   Steam: https://steamcommunity.com/profiles/76561198023022683
-   
-   // The Big Boss
-   Steven
-   Github: https://github.com/mechabubba
-   Steam: https://steamcommunity.com/profiles/76561198058209703
+  // Developer
+  Steven
+  Github: https://github.com/mechabubba
+  Steam: https://steamcommunity.com/profiles/76561198058209703
 
-/* TECH STUFF */
+  // Graphics & Assets
+  Ogrewarrior
+  Github: n/a
+  Steam: n/a
+
+/* TECH */
     
-   // Hosted on
+  // Hosted on
 
-   NFO Servers https://www.nfoservers.com/
-   
-   // Software & Web Tools
-   
-   Visual Studio Code https://code.visualstudio.com/
-   Notepad++ https://notepad-plus-plus.org/
-   Atom https://atom.io/
-   paint.net https://www.getpaint.net/
-   Piskel https://www.piskelapp.com/
-   Filezilla https://filezilla-project.org/
-   WinSCP https://winscp.net/eng/index.php
-   putty https://www.putty.org/
-   google's closure compiler https://closure-compiler.appspot.com
-   cssportal's css optimize https://www.cssportal.com/css-optimize/
-   steamrep http://steamrep.com/
+  NFO Servers https://www.nfoservers.com/
+  
+  // Software & Web Tools
+  
+  Visual Studio Code https://code.visualstudio.com/
+  Notepad++ https://notepad-plus-plus.org/
+  Atom https://atom.io/
+  paint.net https://www.getpaint.net/
+  Piskel https://www.piskelapp.com/
+  Filezilla https://filezilla-project.org/
+  WinSCP https://winscp.net/eng/index.php
+  putty https://www.putty.org/
+  google's closure compiler https://closure-compiler.appspot.com
+  cssportal's css optimizer https://www.cssportal.com/css-optimize/
+  steamrep http://steamrep.com/
 
-   // With help from...
+  // And with help from...
 
-   w3c https://www.w3.org/
-   MDN web docs https://developer.mozilla.org/en-US/
-   w3schools https://www.w3schools.com/
-   stack overflow https://stackoverflow.com/
-   facepunch forums https://forum.facepunch.com/ (rip)
+  w3c https://www.w3.org/
+  MDN web docs https://developer.mozilla.org/en-US/
+  w3schools https://www.w3schools.com/
+  stack overflow https://stackoverflow.com/
+  facepunch forums https://forum.facepunch.com/ (rip)
+  The Open Graph Protocol https://ogp.me/
