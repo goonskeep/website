@@ -1,0 +1,285 @@
+/* ~ Basics ~ */
+
+* {
+  box-sizing: border-box;
+}
+
+*>:first-child {
+  margin-top: 0
+}
+
+*>:last-child {
+  margin-bottom: 0
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: #111111;
+}
+
+body {
+  color: #eeeeee;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.1;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em
+}
+
+ul li, ol li {
+  margin-top: .6em;
+  margin-bottom: .6em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700
+}
+
+img, .icon {
+  vertical-align: middle;
+}
+
+.icon {
+  width: 1.2em;
+  height: 1.2em
+}
+
+code {
+  display: inline-block;
+  padding: 1px 2px;
+  margin: 1px 2px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 15.6px;
+  line-height: 1.1;
+  background-color: rgba(44, 44, 44, 0.4);
+  border-radius: 4px;
+  white-space: nowrap;
+}
+
+a {
+  color: #4c7dcf;
+  border: solid 2px transparent;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: #963C46;
+  text-decoration: underline;
+}
+
+a:focus, a:active {
+  text-decoration: none;
+  border: solid 2px #4c7dcf;
+  border-radius: 2px;
+  outline: none;
+  box-shadow: none;
+}
+
+.space-between {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* ~ Colors ~ */
+
+.r {
+  color: #FF6961
+}
+
+.y {
+  color: #F1EA7F
+}
+
+.g {
+  color: #77DD77
+}
+
+.d {
+  color: #7289DA
+}
+
+.s {
+  color: #67C1F5
+}
+
+.o {
+  color: #FF8C00
+}
+
+/* ~ Layout ~ */
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+#header {
+  padding: 1em;
+}
+
+#content {
+  padding: 1em;
+}
+
+#footer {
+  padding: 1em;
+}
+
+/*
+#######################################################################################
+# v3 ##################################################################################
+
+#header {
+  background-image: url(assets/header.png);
+  background-repeat: repeat-x;
+  height: 96px
+}
+
+#header-logo {
+  height: 96px;
+  width: 156px;
+  background-image: url(assets/keep.png)
+}
+
+#main {
+  padding: 0 1em 0 1em;
+  height: auto;
+}
+
+#rules {
+  width: 100%;
+  clear: both;
+  text-align: center;
+}
+
+#footer {
+  clear: both;
+  padding: 1em;
+}
+
+.column {
+  height: auto;
+  float: left;
+  text-align: center;
+}
+
+.welcome {
+  width: 80%;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.nav {
+  width: 20%;
+}
+
+.lower {
+  width: 50%;
+}
+
+*/
+
+/*
+##########################################################################################################
+# v4prototype-halloween ##################################################################################
+
+This css is INDEV
+
+html {
+  background: #070102 url(./assets/motd/halloweenbackground.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  background-color: rgba(7, 1, 2, 0.7);
+  min-width: 100vw;
+  min-height: 100vh;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  color: #ddd;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 1.1em;
+}
+
+#header {
+  height: 1em;
+}
+
+#header {
+  background-image: url(assets/motd/halloweenheader.png);
+  background-repeat: repeat-x;
+  height: 96px
+}
+
+#header-logo {
+  height: 96px;
+  width: 156px;
+  background-image: url(assets/motd/halloweenkeep.png)
+}
+
+#content {
+  display: block;
+  padding: 0 1em 1em 1em;
+  height: auto;
+}
+
+#rules {
+  text-align: center;
+  width: 100%;
+}
+
+#footer {
+  clear: both;
+  display: block;
+  width: 100%;
+  padding: 1em;
+}
+
+.column{
+  height: auto;
+  float: left;
+}
+
+.welcome {
+  width: 80%;
+  padding-right:20px;
+  padding-left:20px;
+  text-align: center;
+}
+
+.nav {
+  width: 20%;
+}
+
+.bottom {
+  width: 50%;
+  padding: 1em;
+}
+
+#center-header {
+  width: 100%;
+  clear: both;
+  padding-top: 1em;
+  padding-bottom: 1em; 
+  text-align: center;
+}
+
+*/
