@@ -45,13 +45,13 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700
 }
 
-img, .icon {
+img {
   vertical-align: middle;
 }
 
 .icon {
-  width: 1.2em;
-  height: 1.2em
+  width: 20px;
+  height: 20px;
 }
 
 code {
@@ -74,7 +74,6 @@ a {
 }
 
 a:hover {
-  color: #963C46;
   text-decoration: underline;
 }
 
@@ -84,13 +83,6 @@ a:focus, a:active {
   border-radius: 2px;
   outline: none;
   box-shadow: none;
-}
-
-.space-between {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  align-items: center;
 }
 
 /* ~ Colors ~ */
@@ -143,6 +135,25 @@ body {
 #footer {
   flex: unset;
 }
+
+.space-between-row {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.primary {
+  flex: 1;
+}
+
+/* ~ INDEV ~ */
+
+
 
 /*
 #######################################################################################
