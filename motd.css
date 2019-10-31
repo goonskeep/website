@@ -123,6 +123,8 @@ a:focus, a:active {
 }
 
 /* ~ Layout ~ */
+/*
+Awesomium doesn't support flexbox :(
 
 body {
   display: flex;
@@ -130,6 +132,13 @@ body {
   justify-content: space-between;
   min-height: 100vh;
 }
+.primary {
+  flex: 1;
+}
+.unset {
+  flex: unset;
+}
+*/
 
 .tli {
   padding: 1em;
@@ -147,43 +156,23 @@ body {
   background-image: url(assets/motd/halloweenkeep.png)
 }
 
-/*
-#content {
-}
-
-#footer {
-}
-*/
-
 .inline-block {
   display: inline-block;
 }
 
-.primary {
-  flex: 1;
+.row-box-left, .row-box-right {
+  display: inline-block;
+  width: 49%;
+  vertical-align: middle;
 }
-
-.unset {
-  flex: unset;
+.row-box-left {
+  text-align: left;
 }
-
-/* ~ Indev ~ */
-
-.space-between-row {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
+.row-box-right {
+  text-align: right;
 }
-
-.space-between-row ul {
-  margin: 0;
-}
-
-.align-items-center {
-  align-items: center;
-}
-.align-items-unset {
-  align-items: unset;
+.row-item {
+  display: inline-block;
 }
 
 .center-header {
