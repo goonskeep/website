@@ -173,6 +173,7 @@ body {
 }
 
 /* Colours for each box */
+.box0 { background:#16a085;}
 .box1 { background:#1abc9c;}
 .box2 { background:#3498db;}
 .box3 { background:#9b59b6;}
@@ -182,10 +183,9 @@ body {
 .box7 { background:#e74c3c;}
 .box8 { background:#bdc3c7;}
 .box9 { background:#2ecc71;}
-.box10 { background:#16a085;}
 
+/* The flexbox test */
 
-/* We start writing out flexbox here. The above is just page setup */
 .container {
   display: flex;
   flex-direction: row;
