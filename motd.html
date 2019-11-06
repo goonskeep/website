@@ -4,8 +4,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <base href="https://goon.haus/"> 
-  <!--<base href="https://goonskeep.github.io/website/"> -->
+  <!--<base href="https://goon.haus/"> 
+  <base href="https://goonskeep.github.io/website/"> -->
   <link rel="icon" type="image/png" href="./assets/candycorn.png" />
   <title>GK • MOTD</title>
   <meta property="og:title" content="GK • MOTD" />
@@ -20,10 +20,12 @@
 </head>
 
 <body>
-  <div id="header" class="tli"><div class="row-box-left">
+  <div id="header" class="tli">
+    <div class="row-box-left">
       <img class="row-item" src="./assets/icon.png" />
       <h3 class="row-item">Goon's Keep</h3>
-    </div><div class="row-box-right">
+    </div>
+    <div class="row-box-right">
       <div class="row-item">
         <h3>Links</h3>
         <p><a href="https://discord.goon.haus" class="d">
@@ -33,36 +35,45 @@
             <img class="icon" src="assets/steam.png"> <span>Steam Group</span>
           </a></p>
       </div>
-    </div></div>
+    </div>
+  </div>
   <!--
   <div id="header">
     <div id="header-logo"></div>
   </div>
   -->
   </div>
+  <div id="overlay">
+    <div id="modal">
+      <span id="close">&times;</span>
+      <h3 style="margin-top:0">amber's secret tips..</h3>
+      <p>hello there! it's dangerous to go alone, take these tips...</p>
+      <ul>
+        <li>prop flying is allowed as long as you're within bounds and can be shot down</li>
+        <li>prop killing is allowed, as long as you're conforming to our rules (such as no rdm) it is a valid method of dealing damage</li>
+        <li>the gravity gun can pick up the rollermine, allowing you to provide yourself a semi-unbreakable prop. it can
+          still be destroyed, however, by water/guns/explosions</li>
+        <li>the gravity gun can pick up a wide variety of unusual things, like bodies and live grenades</li>
+        <li>i recommend you give the traitor weapons you're unfamiliar with a chance</li>
+        <li>the tau cannon's charged shot can be used similar to rocket jumping in tf2</li>
+        <li>the famas is very consistent for short to mid range with it's high fire rate and low recoil</li>
+        <li>the rifle's headshot damage bonus applies outside of zoom, so it can be used up close and personal just as
+          effectively</li>
+        <li>the pistol is underappreciated, headshots are extremely effective</li>
+        <li>the traitor's super shotgun is legitimately unbalanced and overpowered</li>
+        <li>we have the VSS rather than an awp, but it's actually much better and more balanced for several reasons.
+          It's a more stealty proper sniper rifle that rewards headshots.</li>
+        <li>most people forget that they have access to a flashlight in this game, use it in dark areas</li>
+      </ul>
+    </div>
+  </div>
   <div id="content" class="tli primary">
     <div id="desc">
-      <h3 class="o">It's time to get spooky, It's the All Gooners' Eve! <img class="icon" src="assets/candycorn.png">
-      </h3>
+      <h3><span class="y">Message Of The Day:</span> Remember to keep hydrated!</h3>
       <p>Welcome to the goon's keep, minion.</p>
-      <p>We're in the middle of our halloween event, the All Gooners' Eve! Learn about it below.</p>
-    </div>
-    <h3 class="center-header o">Spooky Bullet Points...</h3>
-    <div>
-      <ul>
-        <li>The batteries to all of our walkie talkies ran out, and we forgot to order new ones.
-          <ul>
-            <li>Locational/Proximity Voice Chat is Enabled</li>
-          </ul>
-        </li>
-        <li>Some local cultists have managed to fuck up gravity... Something about binding it to life forces?
-          <ul>
-            <li>Gravity fades away with each consecutive death during a round</li>
-          </ul>
-        </li>
-        <li>Use <code>playermodel_selector</code> in console to select your model!<br>Or bind it to a key
-          with <code>bind "c" "playermodel_selector"</code>, c being the key you want to bind it to.</li>
-      </ul>
+      <p>We're a TTT community built enjoyable vanilla-esque TTT gameplay.</p>
+      <p>Visit our discord linked in the top right if you want to stick around in our little community.</p>
+      <p>We hope you enjoy your stay!</p>
     </div>
     <h3 class="center-header r">Rules</h3>
     <div>
@@ -76,16 +87,20 @@
         <li>No <span class="r">teaming</span>, which falls under the term metagaming, is when players "team up" with
           each other <b><i>outside</i></b> the boundries of the game. Often overlaps with ghosting.</li>
         <li>No <span class="r">nsfw sprays</span>, up to staff discretion where the line falls.</li>
-        <li>Please don't spam the chat or be intentionally obnoxious.</li>
-        <li>Making threats against others, or the server (such as threatening ddos) won't be tolerated.</li>
-        <li>Discriminatory speech on the basis of race, gender, religion, etc, isn't acceptable.</li>
-        <li>Try not to act exceedingly toxic. This isn't league of legends.</li>
+        <li>Please don't <span class="r">spam</span> the chat or be intentionally obnoxious.</li>
+        <li>Making <span class="r">threats</span> against others, or the server (such as threatening ddos) won't be tolerated.</li>
+        <li><span class="r">Discriminatory speech</span> on the basis of race, gender, religion, etc, isn't acceptable.</li>
+        <li>Try not to act <span class="r">exceedingly toxic</span>. This isn't league of legends.</li>
       </ul>
     </div>
   </div>
   <div id="footer" class="tli">
-    <p>Copyright (c) 2019 Goon's Keep lololol</p>
+    <p>Copyright (c) 2019 Goon's Keep lololol. 🖱 コナミコマンド</p>
   </div>
+  <script>
+    // secret
+    function onKonamiCode(b) { var a = ""; document.addEventListener("keydown", function (c) { a += "" + c.keyCode; if ("38384040373937396665" === a) return b(); "38384040373937396665".indexOf(a) && (a = "" + c.keyCode) }) } var overlay = document.getElementById("overlay"), close = document.getElementById("close"); onKonamiCode(function () { overlay.style.display = "block" }); close.onclick = function () { overlay.style.display = "none" }; window.onclick = function (b) { b.target == overlay && (overlay.style.display = "none") };
+  </script>
 </body>
 
 </html>
