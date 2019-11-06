@@ -100,26 +100,6 @@
     <p>Copyright (c) 2019 Goon's Keep lololol. コナミコマンド</p>
   </div>
   <script>
-    function loadJSON(path, success, error) {
-      var xhr = new XMLHttpRequest();
-      xhr.onreadystatechange = function () {
-        if (xhr.readyState === XMLHttpRequest.DONE) {
-          if (xhr.status === 200) {
-            if (success)
-              success(JSON.parse(xhr.responseText));
-          } else {
-            if (error)
-              error(xhr);
-          }
-        }
-      };
-      xhr.open("GET", path, true);
-      xhr.send();
-    }
-    loadJSON('motds.json',
-      function (data) { console.log(data); },
-      function (xhr) { console.error(xhr); }
-    );
     // secret
     function onKonamiCode(b) { var a = ""; document.addEventListener("keydown", function (c) { a += "" + c.keyCode; if ("38384040373937396665" === a) return b(); "38384040373937396665".indexOf(a) && (a = "" + c.keyCode) }) } var overlay = document.getElementById("overlay"), close = document.getElementById("close"); onKonamiCode(function () { overlay.style.display = "block" }); close.onclick = function () { overlay.style.display = "none" }; window.onclick = function (b) { b.target == overlay && (overlay.style.display = "none") };
   </script>
