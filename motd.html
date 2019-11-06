@@ -4,15 +4,15 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <base href="https://goon.haus/"> 
-  <!--<base href="https://goonskeep.github.io/website/"> -->
+  <!--<base href="https://goon.haus/">-->
+  <base href="https://goonskeep.github.io/website/">
   <link rel="icon" type="image/png" href="./assets/candycorn.png" />
   <title>GK • MOTD</title>
   <meta property="og:title" content="GK • MOTD" />
   <meta property="og:site_name" content="Goon's Keep" />
   <meta name="description" content="Message Of The Day: It's time to get spooky, It's the All Gooners' Eve!">
   <meta property="og:description" content="Message Of The Day: It's time to get spooky, It's the All Gooners' Eve!" />
-  <meta property="og:image" content="https://goon.haus/assets/candycorn.png" />
+  <meta property="og:image" content="https://goon.haus/asg" />
   <meta property="og:url" content="http://goon.haus/" />
   <meta name="author" content="https://goon.haus/humans.txt" />
   <link rel="author" href="https://goon.haus/humans.txt" />
@@ -50,7 +50,8 @@
       <p>hello there! it's dangerous to go alone, take these tips...</p>
       <ul>
         <li>prop flying is allowed as long as you're within bounds and can be shot down</li>
-        <li>prop killing is allowed, as long as you're conforming to our rules (such as no rdm) it is a valid method of dealing damage</li>
+        <li>prop killing is allowed, as long as you're conforming to our rules (such as no rdm) it is a valid method of
+          dealing damage</li>
         <li>the gravity gun can pick up the rollermine, allowing you to provide yourself a semi-unbreakable prop. it can
           still be destroyed, however, by water/guns/explosions</li>
         <li>the gravity gun can pick up a wide variety of unusual things, like bodies and live grenades</li>
@@ -89,7 +90,8 @@
         <li>No <span class="r">nsfw sprays</span>, up to staff discretion where the line falls.</li>
         <li>No <span class="r">discriminatory speech</span> on the basis of race, gender, religion, etc.</li>
         <li>Please don't <span class="r">spam</span> the chat or be intentionally obnoxious.</li>
-        <li>Making <span class="r">threats</span> against others, or the server (such as threatening ddos) won't be tolerated.</li>
+        <li>Making <span class="r">threats</span> against others, or the server (such as threatening ddos) won't be
+          tolerated.</li>
         <li>Try not to act <span class="r">exceedingly toxic</span>. This isn't league of legends.</li>
       </ul>
     </div>
@@ -98,6 +100,26 @@
     <p>Copyright (c) 2019 Goon's Keep lololol. コナミコマンド</p>
   </div>
   <script>
+    function loadJSON(path, success, error) {
+      var xhr = new XMLHttpRequest();
+      xhr.onreadystatechange = function () {
+        if (xhr.readyState === XMLHttpRequest.DONE) {
+          if (xhr.status === 200) {
+            if (success)
+              success(JSON.parse(xhr.responseText));
+          } else {
+            if (error)
+              error(xhr);
+          }
+        }
+      };
+      xhr.open("GET", path, true);
+      xhr.send();
+    }
+    loadJSON('motds.json',
+      function (data) { console.log(data); },
+      function (xhr) { console.error(xhr); }
+    );
     // secret
     function onKonamiCode(b) { var a = ""; document.addEventListener("keydown", function (c) { a += "" + c.keyCode; if ("38384040373937396665" === a) return b(); "38384040373937396665".indexOf(a) && (a = "" + c.keyCode) }) } var overlay = document.getElementById("overlay"), close = document.getElementById("close"); onKonamiCode(function () { overlay.style.display = "block" }); close.onclick = function () { overlay.style.display = "none" }; window.onclick = function (b) { b.target == overlay && (overlay.style.display = "none") };
   </script>
